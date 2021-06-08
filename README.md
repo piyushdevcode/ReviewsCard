@@ -1,2 +1,1 @@
 # ReviewsCard
-Created with CodeSandbox
