@@ -1,0 +1,55 @@
+body,
+::after,
+::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 1.15em;
+  font-family: Roboto;
+}
+.reviews h4{
+  text-transform: uppercase;
+  font-size: 0.765em;
+  letter-spacing: 2.689px;
+}
+.customerImg {
+  margin:0px;
+  border: 1.867px solid;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
+.reviews {
+  width:30vw;
+  height:40vh;
+  text-align: center;
+  border: 1px solid;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.35em;
+  padding-top: 0.15em;
+  max-width: 30vw;
+  border-radius: 1.19em;
+}
+.message{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-around;
+}
+.message .content {
+  text-align: justify;
+  padding: 0.2em 2em;
+}
+.arrow{
+  color: dodgerblue;
+  padding: 0.188em ;
+  /* border-radius: 0.5em ; */
+  border: 1px solid black;
+  font-weight:bold;
+  font-size:1.5em;
+  opacity:0.459;
+  cursor: pointer;
+}
